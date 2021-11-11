@@ -1,0 +1,25 @@
+﻿01 Auftrag
+==========
+
+Porgramm für Hotelangebotserstellung.
+
+Eingabe:
+	- Anzahl der Personen
+	- Aufenthaltsdauer
+
+Verarbeitung:
+Gesamtpreis errechnen mit Zimmerpreis 70€ pro Person und pro Nacht
+	- Nettopreis = Zimmerpreis x Aufenthaltsdauer x Anzahl Personen
+	- Gesamtpreis = Nettopreis + MwSt
+
+Ausgabe:
+	- Gesamtpreis
+
+1. Aufgabe
+Definition der Datenstruktur (Deklaration der Variablen)
+
+2. Aufgabe
+Die Aufenthaltsdauer und die Anzahl Personen sollen eingegeben werden. Nach den jeweiligen Eingaben wird der eingegebene Wert wieder ausgegeben (Bestätigung)
+
+3. Aufgabe
+Berechnen sie den Gesamtpreis eines Angebots wie oben erläutert.

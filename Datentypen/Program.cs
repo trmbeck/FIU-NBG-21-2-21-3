@@ -158,6 +158,7 @@ addiere 1     1  1  1  1  1  1  0  0 --> Zweier Komplement --> -4 dez.
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Press anykey");
             Console.ReadKey();
+
         }
     }
 }
