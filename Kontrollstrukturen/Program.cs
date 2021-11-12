@@ -6,8 +6,12 @@ namespace Kontrollstrukturen
     {
         static void Main(string[] args)
         {
+
             bool Bedingung = false;
             Bedingung = true;
+
+            #region Verzweigung
+
 
             //einseitige Auswahl (Projekt volljährig)
             if (Bedingung)
@@ -41,6 +45,69 @@ namespace Kontrollstrukturen
 
                 }
             }
+            #endregion
+
+            #region Schleifen
+
+            /*
+              Kopfgesteuerte Schleife
+            
+              ...
+              Anweisungen
+
+           +-> +------------------------+
+           |   |  Schleifensteuerung    |  --+
+           |   |       (Bedingung)      |    |
+           |   +------------------------+    |
+           |   |                        |    |
+           |   |                        |    |
+           |   | Schleifenrumpf         |    |  möglich, dass Rumpf nicht 1 mal ausgeführt wird
+           |   |                        |    |
+           |   |                        |    |
+           +-  +------------------------+    |
+                                             |
+              Anweisungen                <---+
+              ...
+              
+             */
+
+            //Schleifensteuerung
+            while (Bedingung) //true -> Schleifenrumpf oder false -> Abbruch
+            { //Anweisungsblock
+                //Schleifenrumpf
+                //Anweisung/en
+            }
+
+
+            //Fußgesteuerte Schleife
+            /*
+                ...
+                Anweisungen
+             
+             +-> +------------------------+
+             |   |                        |
+             |   |                        |
+             |   | Schleifenrumpf         |   mindestens 1 mal
+             |   |                        |
+             |   |                        |
+             |   +------------------------+
+             |   |  Schleifensteuerung    |
+             |   |       (Bedingung)      |
+             +-  +------------------------+
+                            |
+                            |
+                            V
+                Anweisungen                
+                ...
+             */
+
+            do
+            {//Schleifenrumpf
+                //Anweisungen
+            }
+            while (Bedingung);
+
+            #endregion
         }
     }
 }

@@ -17,11 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgaben", "Aufgaben", "{EC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMI", "BMI\BMI.csproj", "{C39CAD4D-9233-4E1C-A988-09ACC15C5A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datentypen", "Datentypen\Datentypen.csproj", "{3900B535-5EC4-4A50-81B7-6E8F37435583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datentypen", "Datentypen\Datentypen.csproj", "{3900B535-5EC4-4A50-81B7-6E8F37435583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeichenfolgen", "Zeichenfolgen\Zeichenfolgen.csproj", "{D12854BB-8A89-4ECF-9537-8391208867EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeichenfolgen", "Zeichenfolgen\Zeichenfolgen.csproj", "{D12854BB-8A89-4ECF-9537-8391208867EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel01", "Hotel01\Hotel01.csproj", "{51C11774-5176-48AA-8A96-A73CEAB4BB5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel01", "Hotel01\Hotel01.csproj", "{51C11774-5176-48AA-8A96-A73CEAB4BB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KopfgesteuerteSchleife", "KopfgesteuerteSchleife\KopfgesteuerteSchleife.csproj", "{8EACCB48-5BFA-442B-B36B-9C199D067662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FussgesteuerteSchleife", "FussgesteuerteSchleife\FussgesteuerteSchleife.csproj", "{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{51C11774-5176-48AA-8A96-A73CEAB4BB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C11774-5176-48AA-8A96-A73CEAB4BB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C11774-5176-48AA-8A96-A73CEAB4BB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EACCB48-5BFA-442B-B36B-9C199D067662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EACCB48-5BFA-442B-B36B-9C199D067662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EACCB48-5BFA-442B-B36B-9C199D067662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EACCB48-5BFA-442B-B36B-9C199D067662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +81,8 @@ Global
 		{3900B535-5EC4-4A50-81B7-6E8F37435583} = {06C5959A-CEB3-4724-B8CA-D5BA634F8218}
 		{D12854BB-8A89-4ECF-9537-8391208867EC} = {06C5959A-CEB3-4724-B8CA-D5BA634F8218}
 		{51C11774-5176-48AA-8A96-A73CEAB4BB5B} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{8EACCB48-5BFA-442B-B36B-9C199D067662} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}
