@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Kontrollstrukturen
 {
@@ -8,7 +9,7 @@ namespace Kontrollstrukturen
         {
 
             bool Bedingung = false;
-            Bedingung = true;
+            //Bedingung = true;
 
             #region Verzweigung
 
@@ -107,6 +108,30 @@ namespace Kontrollstrukturen
             }
             while (Bedingung);
 
+
+
+            //Zählergesteuerte Schleife
+            int startwert = 1;
+            int zähler;
+            int endwert = 10;
+            int schrittweite = 1;
+            int abbruch = (new Random((int)DateTime.Now.Ticks)).Next(1,11); //Zufallszahl generieren
+            
+            // zähle von startwert bis endwert mit schrittweite
+            // for(     startwert/zähler;   bedingung(endwert)   ;   erhöhen des zählers    )
+            for (zähler = startwert; zähler <= endwert; zähler = zähler + schrittweite)
+            {
+                if (zähler == 5)
+                {
+                    Console.WriteLine("Zählerwert: fünf");
+                    continue; //springt direkt zur Bedingungsprüfung bzw. Zähleränderung
+                }
+                Console.WriteLine("Zählerwert: " + zähler);
+                
+                if (zähler == abbruch) break; //beendet die Schleife sofort!
+            }
+
+            Console.WriteLine("ENDE!");
             #endregion
         }
     }

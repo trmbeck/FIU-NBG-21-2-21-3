@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KopfgesteuerteSchleife", "K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FussgesteuerteSchleife", "FussgesteuerteSchleife\FussgesteuerteSchleife.csproj", "{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZaehlergesteuerteSchleife", "ZaehlergesteuerteSchleife\ZaehlergesteuerteSchleife.csproj", "{D6A94D72-4615-4095-9DA6-0E6DCE706708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A94D72-4615-4095-9DA6-0E6DCE706708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A94D72-4615-4095-9DA6-0E6DCE706708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A94D72-4615-4095-9DA6-0E6DCE706708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A94D72-4615-4095-9DA6-0E6DCE706708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{51C11774-5176-48AA-8A96-A73CEAB4BB5B} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{8EACCB48-5BFA-442B-B36B-9C199D067662} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{D6A94D72-4615-4095-9DA6-0E6DCE706708} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}
