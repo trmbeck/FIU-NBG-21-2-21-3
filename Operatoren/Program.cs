@@ -30,7 +30,7 @@ namespace Operatoren
             wert = 29 % 7;                  // wert ist 1
 
             int result = 17 / 10;           // Ganzzahldivision ohne Rest -> 17 / 10 ergibt 1
-            Console.WriteLine("Ganzzahldivision: " + result);
+            Console.WriteLine("Ganzzahldivision: " + result.ToString());
 
             int a = 1234;
             Console.WriteLine("einerstelle: " + a % 10);

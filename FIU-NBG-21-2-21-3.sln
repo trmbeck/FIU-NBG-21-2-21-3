@@ -34,6 +34,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZaehlergesteuerteSchleife",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatoren", "Operatoren\Operatoren.csproj", "{5CC97ACE-2CCB-4F82-94D1-929380CAA34F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geburtstag", "Geburtstag\Geburtstag.csproj", "{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,10 @@ Global
 		{5CC97ACE-2CCB-4F82-94D1-929380CAA34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC97ACE-2CCB-4F82-94D1-929380CAA34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC97ACE-2CCB-4F82-94D1-929380CAA34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{60F2C9C7-E309-449C-BED4-A73F6C9A3CA2} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{D6A94D72-4615-4095-9DA6-0E6DCE706708} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{5CC97ACE-2CCB-4F82-94D1-929380CAA34F} = {06C5959A-CEB3-4724-B8CA-D5BA634F8218}
+		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}

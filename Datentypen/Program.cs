@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Datentypen
 {
@@ -73,6 +74,38 @@ addiere 1     1  1  1  1  1  1  0  0 --> Zweier Komplement --> -4 dez.
             Character = 'A';            // Literal-Suffix für chars ist das einfache Anführungszeichen
 
             Bool = true; Bool = false;  // Zuweisung von true und false
+
+            //Datum und Zeit
+            // Speicherung mittels Ticks
+            // 1 Tick sind 100 ns
+            // Beginnend bei 1.Januar 0001 Mitternacht -> 0 Ticks
+            // 
+            int zeit = 0;
+            while(zeit < 3)
+            {
+                Console.Clear();
+                Console.WriteLine("jetzt: " + DateTime.Now.TimeOfDay);
+                Console.WriteLine("Ticks jetz: " + DateTime.Now.Ticks);
+                System.Threading.Thread.Sleep(1000);
+                zeit++;
+            }
+            DateTime datumZeit;         //struct(Struktur)
+            datumZeit = new DateTime(2021,12,21,12,23,11,24);
+            Console.WriteLine("\n\nDatum und Zeit: " + datumZeit);
+            Console.WriteLine("Datum und Zeit in en-us: " + datumZeit.ToString("g",new CultureInfo("en-us")) + "\n\n");
+            
+            Console.WriteLine("Max Datum: " + DateTime.MaxValue);
+            Console.WriteLine("Max Datum Ticks: " + DateTime.MaxValue.Ticks);
+
+            Console.WriteLine("Day Of Week: " + datumZeit.DayOfWeek);
+            Console.WriteLine("Month: " + datumZeit.Month);
+            Console.WriteLine("Year: " + datumZeit.Year);
+            Console.WriteLine("Day of Month: "+ datumZeit.Day);
+            Console.WriteLine("Hour: " + datumZeit.Hour);
+            Console.WriteLine("Minute: " + datumZeit.Minute);
+            Console.WriteLine("Second: " + datumZeit.Second);
+            Console.WriteLine("Millisecond: " + datumZeit.Millisecond);
+
 
 
 
