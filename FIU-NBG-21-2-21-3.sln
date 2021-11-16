@@ -14,9 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontrollstrukturen", "Kontrollstrukturen\Kontrollstrukturen.csproj", "{780DC723-277D-4428-BC0E-C22D181301DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgaben", "Aufgaben", "{EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}"
-	ProjectSection(SolutionItems) = preProject
-		D:\Training\Aufgaben\AE-Grundlagen\Kontrollstrukturen, Datentypen und Operatoren\BMI.txt = D:\Training\Aufgaben\AE-Grundlagen\Kontrollstrukturen, Datentypen und Operatoren\BMI.txt
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMI", "BMI\BMI.csproj", "{C39CAD4D-9233-4E1C-A988-09ACC15C5A48}"
 EndProject
@@ -37,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geburtstag", "Geburtstag\Geburtstag.csproj", "{5AF5BF90-8B10-492F-84F1-DC649CBE16F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netzwerk", "Netzwerk\Netzwerk.csproj", "{783F7EAB-302A-44D7-82D6-0232D32C1417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tannenbaum", "Tannenbaum\Tannenbaum.csproj", "{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +95,10 @@ Global
 		{783F7EAB-302A-44D7-82D6-0232D32C1417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783F7EAB-302A-44D7-82D6-0232D32C1417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783F7EAB-302A-44D7-82D6-0232D32C1417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +117,7 @@ Global
 		{5CC97ACE-2CCB-4F82-94D1-929380CAA34F} = {06C5959A-CEB3-4724-B8CA-D5BA634F8218}
 		{5AF5BF90-8B10-492F-84F1-DC649CBE16F3} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{783F7EAB-302A-44D7-82D6-0232D32C1417} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}

@@ -1,0 +1,12 @@
+Geben Sie stilisierte “Tannenbäume” mit “Stamm” aus. Lassen Sie vom Benutzer die gewünschte die Höhe
+h eingeben und den “Baum” ausgeben.
+Das Ergebnis, z.B. für z.B. h=6, soll so aussehen:
+
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+     #
+

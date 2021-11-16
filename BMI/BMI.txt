@@ -1,0 +1,9 @@
+Entwerfen (PAP und Struktogramm) und implementieren (C# Code) Sie ein Programm, das den Body-Mass-Index errechnet. Nach Eingabe von Körpergröße l (Eingabe in cm, dann Umrechnung in m) und Gewicht m (in kg) wird der Index wie folgt berechnet:
+
+BMI = m/l²
+
+Ist der Wert unter 18,5 wird von Untergewicht gesprochen, bei einem Wert ab 25 von Übergewicht. Normalgewicht gilt bei allen anderen Werten.
+
+Eingabe: Körpergröße in cm, Gewicht in kg
+
+Ausgabe: "Untergewicht", "Normalgewicht", "Übergewicht"
