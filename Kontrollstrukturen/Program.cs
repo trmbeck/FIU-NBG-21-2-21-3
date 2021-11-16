@@ -131,6 +131,23 @@ namespace Kontrollstrukturen
                 if (zähler == abbruch) break; //beendet die Schleife sofort!
             }
 
+
+
+            // Sammlungen iterieren
+            // foreach-Schleife
+            int[] zahlen = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            for(int index = 0; index < zahlen.Length; index++)
+            {
+                int item = zahlen[index];
+                Console.WriteLine(item);
+            }
+
+            foreach(int item in zahlen)
+            {
+                Console.WriteLine(item);
+            }
+
+
             Console.WriteLine("ENDE!");
             #endregion
         }

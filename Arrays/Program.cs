@@ -26,6 +26,14 @@ namespace Arrays
                 punkteListe[i] = Convert.ToInt32(Console.ReadLine()); // variabler Zugriff auf Arrayelemente
             }
 
+            double summe = 0;
+            foreach(int item in punkteListe)
+            {
+                Console.WriteLine("Punkte: " + item);
+                summe += item; // summe = summe + item;
+            }
+            Console.Write("Durchschnitt: " + (summe/punkteListe.Length));
+
             //2. Array
             double[] Durchschnittsliste = new double[10];
 
@@ -43,10 +51,26 @@ namespace Arrays
                 GesamtListe[i] = punkteListe[i];
             }
             
-            for(int i = punkteListe.Length; i < punkteListe.Length + punkteListe2.Length; i++)
+            for(int i = punkteListe.Length; i < punkteListe.Length + punkteListe2.Length-1; i++)
             {
                 GesamtListe[i] = punkteListe2[i];
             }
+
+            //Array aufteilen
+            int[] liste1 = new int[GesamtListe.Length / 2];
+            int[] liste2 = new int[(GesamtListe.Length / 2)+(GesamtListe.Length % 2)];
+
+            for (int i = 0; i < liste1.Length; i++)
+            {
+                liste1[i] = GesamtListe[i];
+            }
+
+            for (int i = liste1.Length; i < liste1.Length + liste2.Length; i++)
+            {
+                liste2[i] = GesamtListe[i];
+            }
+
+
         }
     }
 }
