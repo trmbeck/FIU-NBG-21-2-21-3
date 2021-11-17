@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaedtePopulation", "Staedt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadratzahlenImArray", "QuadratzahlenImArray\QuadratzahlenImArray.csproj", "{891CDFF9-1349-4AA5-899B-9492D5341933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleife3", "Schleife3\Schleife3.csproj", "{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{891CDFF9-1349-4AA5-899B-9492D5341933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{891CDFF9-1349-4AA5-899B-9492D5341933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{891CDFF9-1349-4AA5-899B-9492D5341933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{7C312DA1-3887-494D-92BD-63112D122DAB} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 		{609B94AD-68F8-4E30-9C5D-796E123EF519} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{891CDFF9-1349-4AA5-899B-9492D5341933} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}
