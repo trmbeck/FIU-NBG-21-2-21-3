@@ -49,6 +49,7 @@ namespace Zeichenfolgen
                 \x	            Unicode-Escapesequenz, die ähnlich wie "\u" ist, außer mit variabler Länge	\xH[H][H][H] (Bereich: 0 - FFFF; Beispiel: \x00E7 or \x0E7 oder \xE7 = "ç")
              */
 
+            //Regulärer String
             // UNC-PFad: \\server\freigabe\datei.xy
             string UNCpfad = "\\\\server\\freigabe\\datei.xy";
             Console.WriteLine(UNCpfad);
@@ -66,6 +67,50 @@ namespace Zeichenfolgen
             Console.WriteLine(zusammen);
             string con = String.Concat(a, b, "!", "\n","wie geht's",'?', zahl); // gleiche wie zuvor nur über den "Befehl" String.Concat
             Console.WriteLine(con);
+
+
+            //Ein String ist ein Array von char
+            char[] zeichenfolge = new char[10];
+            string zeichenfolge2 = "1234567890";
+            for (int i=0;i < zeichenfolge2.Length; i++)
+            {
+                Console.Write(zeichenfolge2[i]);
+                //System.Threading.Thread.Sleep(1000); //eine Sekunde warten
+            }
+
+            //String Formatierung mit Platzhalter
+            Console.WriteLine("\n\nString Formatierung\nSyntax: {index[,alignment][:FormatierungsString]}");
+            string formatierterString = String.Format("Temperatur in C°: max {1} min {0}", 23.5, 34.2);
+            Console.WriteLine(formatierterString);
+
+            double[] maxTemp = new double[4] { 29.5,27.45,27.9,28.5};
+            double[] minTemp = new double[4] { 19.9, 18.635424446, 19.2,19.4};
+
+
+            Console.WriteLine("{0,5} {1,7} {2,7}","Tage","MinTemp","MaxTemp");
+            Console.WriteLine("----------------------");
+            for (int i = 0; i < 4; i++)
+            {
+                // alignment:   positiver Wert: rechtsbündig
+                //              negativer Wert: linksbündig
+                Console.WriteLine("{0,-6}{1,-8:F2}{2,-7}",i+1,minTemp[i],maxTemp[i]);
+            }
+
+            Console.WriteLine("{0:C2}",12.345);   // C -> Währung
+            Console.WriteLine("{0:P0}",0.4);      // Prozent
+            Console.WriteLine("{0} {0:X}",191);   // Hexadezimalzahl
+            Console.WriteLine("{0} {0:E2}",1.5e3);// Exponentialschreibweise
+
+            Console.WriteLine("{0:#####}",1234.5678);       // Ziffernplatzhalter
+            Console.WriteLine("{0:00000}", 1234.5678);      // 0-Platzhalter
+            Console.WriteLine("{0:#####.##}", 1234.5678);   // Dezimaltrennzeichen
+            Console.WriteLine("{0:% #0.00}", 0.036);        //Prozentplatzhalter
+
+            int zahl1 = 12;
+            int zahl2 = 42;
+            Console.WriteLine("Zahl1: {0} Zahl2: {1}",zahl1, zahl2);
+            Console.WriteLine($"Zahl1: {zahl1} Zahl2: {zahl2}");
+            Console.WriteLine($"Zahl1: {zahl1,4:c2} Zahl2: {zahl2,8:f4}");
 
         }
     }

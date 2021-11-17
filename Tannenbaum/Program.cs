@@ -6,9 +6,6 @@ namespace Tannenbaum
     {
         static void Main(string[] args)
         {
-            do
-            {
-
 
                 Console.Write("Bitte Höhe eingeben: ");
                 string eingabe = Console.ReadLine();
@@ -31,19 +28,7 @@ namespace Tannenbaum
                     Console.Write(" ");
                 }
                 Console.WriteLine("#");
-                
-                
-                string beenden;
-                do
-                {
-                    Console.WriteLine("Wollen sie beenden?(y/n)");
-                    beenden = Console.ReadLine();
-                } while (beenden != "y" || beenden == "n");
 
-                if (beenden == "y") break;
-                //else Console.WriteLine("Wiedeholung");
-
-            } while (true);
         }
     }
 }
