@@ -30,6 +30,26 @@ namespace Kontrollstrukturen
                 //false
             }
 
+            //alternative zweiseitige Auswahl
+            //ternary Operator, ?:
+            // Variable = Bedingung ? <Rückgabewert im Fall Bedingung ist true> : <Rückgabewert im Fall Bedingung ist false>
+            int wert = 10;
+            string ausgabe;
+            ausgabe = wert > 10 ? "Wert ist größer 10" : "Wert ist nicht größer 10";
+            //Console.WriteLine(wert > 10 ? "Wert ist größer 10" : "Wert ist nicht größer 10");
+
+            if (wert > 10)
+            {
+                //Anweisungen für wert > 10
+                ausgabe = "Wert ist größer 10";
+            }
+            else
+            {
+                //Anweisung für Wert <= 10
+                ausgabe = "Wert ist nicht größer 10";
+            }
+
+
             //mehrseitige Auswahl
             if (Bedingung)
             {
@@ -45,6 +65,34 @@ namespace Kontrollstrukturen
                 {
 
                 }
+            }
+
+            //Fallauswahl
+            // 1, 2, 3 oder 456789
+            int variable = 3;
+            switch (variable)
+            {
+                case 1:
+                    Console.WriteLine("eins");
+                    break;
+                case 2:
+                    Console.WriteLine("zwei");
+                    break;
+                case 3:
+                    Console.Write(variable + " ist ");
+                    Console.WriteLine("drei");
+                    break;
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                    Console.WriteLine("Zahl zwischen 3 und 10");
+                    break;
+                default:
+                    Console.WriteLine("Zahl ist größer als 9 oder kleiner als 1");
+                    break;
             }
             #endregion
 
