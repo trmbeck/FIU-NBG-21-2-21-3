@@ -10,14 +10,13 @@ namespace Operatoren
             bool aussage1 = true, aussage2 = false;
             // Operatoren
 
-            #region Verkettungsoperator
+            #region Verkettungsoperator Kapitel 22
             string s1 = "Hallo";
             string s2 = "FIU";
             string s3 = s1 + s2;
             #endregion
 
-
-            #region Arithmetische Operatoren
+            #region Arithmetische Operatoren Kapitel 7.1
             // Grundrechenarten +,-,*,/,%
             // Punkt- vor Strichrechnung
             // Von links nach rechts
@@ -40,8 +39,7 @@ namespace Operatoren
 
             #endregion
 
-
-            #region Vergleichsoperatoren
+            #region Vergleichsoperatoren Kapitel 7.2
             // Ist gleich
             bool vergleich = operand1 == operand2;
             if (operand1 == operand2) Console.WriteLine("Ist gleich");
@@ -58,8 +56,15 @@ namespace Operatoren
             vergleich = operand1 <= operand2;
             #endregion
 
+            #region Verknüpfungsoperator Kapitel 7.3
+            //Aussage1 && Aussage2 --> Ist Aussage1 falsch, wird Aussage2 nicht ausgewertet, dann ist der Vergleich false
+            //Aussage1 || Aussage2 --> Ist Aussage1 wahr, wird Aussage2 nicht ausgewertet, dann ist der Vergleich true
+            if (aussage1 && aussage2) Console.WriteLine("Beide Aussage sind wahr");
+            if (aussage1 && !aussage2) Console.WriteLine("Aussage1 ist wahr, Aussage2 ist falsch");
+            if ((aussage1 && !aussage2) || ((operand1 > operand2) && (operand1 < 10))) Console.WriteLine("wahr oder falsch:-)");
+            #endregion
 
-            #region Verknüpfungs-/logische Operatoren
+            #region Bitweise Operatoren Kapitel 7.4
             // AND &, OR |, NOT !, XOR ^
             /*
                 AND
@@ -92,14 +97,8 @@ namespace Operatoren
                 1     0  |  1
                 1     1  |  0
 
-                Sonderfall:
-                Aussage1 && Aussage2 --> Ist Aussage1 falsch, wird Aussage2 nicht ausgewertet, dann ist der Vergleich false
-                Aussage1 || Aussage2 --> Ist Aussage1 wahr, wird Aussage2 nicht ausgewertet, dann ist der Vergleich true
+            
              */
-            if (aussage1 && aussage2) Console.WriteLine("Beide Aussage sind wahr");
-            if (aussage1 && !aussage2) Console.WriteLine("Aussage1 ist wahr, Aussage2 ist falsch");
-            if ((aussage1 && !aussage2) || ((operand1 > operand2) && (operand1 < 10))) Console.WriteLine("wahr oder falsch:-)");
-
             int ergebnis = 10 & 12;
             // 128 64 32 16  8  4  2  1
             //   0  0  0  0  1  0  1  0 -> 10dez.
@@ -111,10 +110,7 @@ namespace Operatoren
             //   0  1  1  1  0  1  1  0 -->  118 << 1
             //   1  1  1  0  1  1  0  0 -->  236 >> 3
             //   0  0  0  1  1  1  0  1 -->   29
-            #endregion
 
-
-            #region Verschiebeoperatoren
             // >> nach rechts verschieben
             // << nach links verschieben
             ergebnis = 59;
@@ -126,8 +122,7 @@ namespace Operatoren
             Console.WriteLine(ergebnis >> 1);
             #endregion
 
-
-            #region Zuweisungsoperatoren
+            #region Zuweisungsoperatoren Kapitel 7.5
             ergebnis = operand1;    // einfache Zuweisung
             ergebnis += 1;          // ergebnis = ergebnis + 1;
             ergebnis *= 10;         // ergebnis = ergebnis * 10;
@@ -138,6 +133,18 @@ namespace Operatoren
             aussage2 ^= aussage1;   // aussage2 = aussage2 ^ aussage1;
             #endregion
 
+            #region sonstige Operatoren Kapitel 7.6
+            // ternary-Operator siehe Kontrollstrukturen
+
+            // is -> Typprüfung
+
+            // as -> Typverwendung
+
+            // * -> Zeiger
+            
+            // & -> Adressenoperator
+
+            #endregion
 
             #region Inkrement und Dekrement
             int i = 10;

@@ -6,6 +6,8 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+
+            #region Eindimensionale Arrays
             int[] punkteListe;          // Deklaration eines Arrays vom Typ int
             punkteListe = new int[5];   // Erzeugen von Heapspeicherreservierung für 3 int-Werte
 
@@ -69,8 +71,11 @@ namespace Arrays
             {
                 liste2[i] = GesamtListe[i];
             }
+            #endregion
 
 
+            ConsoleKeyInfo taste = Console.ReadKey();
+            if (taste.Key == ConsoleKey.UpArrow) ;
         }
     }
 }

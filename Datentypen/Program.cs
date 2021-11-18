@@ -10,7 +10,7 @@ namespace Datentypen
             Console.Clear();
             Console.WriteLine("Datentypen\n-----------------");
 
-            //Ganzzahlen
+            #region Datentypen Zahlen Kapitel 4.1
             sbyte GanzzahlSByte;    // 8 Bit  --> 2^8  --> -128 bis + 127
             short GanzzahlShort;    // 16 Bit --> 2^16 --> -32,768 bis 32,767
             int   GanzzahlInt;      // 32 Bit --> 2^32 --> -2,147,483,648 bis 2,147,483,647
@@ -26,6 +26,7 @@ namespace Datentypen
             ulong GanzzahlULong;    // 64 Bit --> 2^64 --> 0 bis 18.446.744.073.709.551.615
 
             GanzzahlUint = 3000000000;
+
 
             /*
             128 64 32 16  8  4  2  1
@@ -52,17 +53,19 @@ addiere 1     1  1  1  1  1  1  0  0 --> Zweier Komplement --> -4 dez.
             float KommaFloat;       //  4-Bytes einfache Genauigkeit: ~7 und 8 Stellen --> 0,333333      Datentyp im .NET Framework ist Single
             double KommaDouble;     //  8-Bytes doppelte Genauigkeit: ~15 bis 17 Stellen --> 0,33333333333333
             decimal KommaDecimal;   // 16-Bytes          Genauigkeit: ~28 bis 29 Stellen --> 0,333333333333333333333333333
+            #endregion
 
-
+            #region Datentypen Zeichen Kapitel 22
             //Zeichen und Zeichenfolgen
             string Zeichenfolge;    // UTF-16 codierter Text, bis zu 2 GB (ca. 1 Mrd. Zeichen)
             char Character;         // UTF-16 codiertes Zeichen --> 2-Byte
-
+            #endregion
 
             //boolscher Datentyp
             bool Bool;              // 1 Byte, Werte: true oder false
 
-            //Casting und Literale
+
+            #region Casting und Literale Kapitel 6.1,6.2 und 23
             KommaDouble = 10;           // 10 ist ein int-Literal (implizit gecastet)
             KommaDouble = 10.01;        // 10.01 ist ein double-Literal
             GanzzahlInt = (int)10.01;   // 10.01 ist ein double-Literal und wird gecastet
@@ -72,10 +75,12 @@ addiere 1     1  1  1  1  1  1  0  0 --> Zweier Komplement --> -4 dez.
 
             Zeichenfolge = "Hallo FIU"; // Literal-Suffix für strings ist das doppelte Anführungszeichen
             Character = 'A';            // Literal-Suffix für chars ist das einfache Anführungszeichen
-
             Bool = true; Bool = false;  // Zuweisung von true und false
+            #endregion
 
-            //Datum und Zeit
+
+
+            #region Datum und Zeit
             // Speicherung mittels Ticks
             // 1 Tick sind 100 ns
             // Beginnend bei 1.Januar 0001 Mitternacht -> 0 Ticks
@@ -105,7 +110,7 @@ addiere 1     1  1  1  1  1  1  0  0 --> Zweier Komplement --> -4 dez.
             Console.WriteLine("Minute: " + datumZeit.Minute);
             Console.WriteLine("Second: " + datumZeit.Second);
             Console.WriteLine("Millisecond: " + datumZeit.Millisecond);
-
+            #endregion
 
 
 

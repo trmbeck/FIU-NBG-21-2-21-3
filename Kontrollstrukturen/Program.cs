@@ -11,7 +11,7 @@ namespace Kontrollstrukturen
             bool Bedingung = false;
             //Bedingung = true;
 
-            #region Verzweigung
+            #region Verzweigung Kapitel 8
 
 
             //einseitige Auswahl (Projekt volljährig)
@@ -96,7 +96,7 @@ namespace Kontrollstrukturen
             }
             #endregion
 
-            #region Schleifen
+            #region Schleifen Kapitel 10
 
             /*
               Kopfgesteuerte Schleife
