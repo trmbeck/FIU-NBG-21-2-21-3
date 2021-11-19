@@ -6,7 +6,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-
+            //goto jagged;
             #region Eindimensionale Arrays Kapitel 11
 
             int[] punkteListe;          // Deklaration eines Arrays vom Typ int
@@ -148,17 +148,35 @@ namespace Arrays
 
             #endregion
 
-            #region Verzweigte (jagged) Arrays
+            jagged:
+            #region Verzweigte (jagged) Arrays Kapitel 11.3
 
-            int[][] jaggedArray = new int[3][];
-            jaggedArray[0] = new int[] { 1, 2, 3, 9, 8, 7 };
-            jaggedArray[1] = new int[] { 4, 5, 6 };
-            jaggedArray[2] = new int[] { 10, 12, 14, 16, 18 };
+            int[][] jaggedArray = new int[2][];
+            jaggedArray[0] = new int[] { 23,74,56,14 };
+            jaggedArray[1] = new int[] { 17,38,21 };
+            
+            Console.WriteLine("Wert 38 ist abrufbar mit jaggedArray[1][1] --> " + jaggedArray[1][1]);
 
-            Console.WriteLine("Wert 12 ist abrufbar mit jaggedArray[2][1] --> " + jaggedArray[2][1]);
+            string[][] jaggedStringArray = new string[3][];
+
+
+            for (int i = 0; i < jaggedArray.Length; i++)
+            {
+                for (int j = 0; j < jaggedArray[i].Length; j++)
+                {
+                    Console.WriteLine(jaggedArray[i][j]);
+                }
+            }
+
+            foreach (int[] array in jaggedArray)
+            {
+                foreach (int item in array)
+                {
+                    Console.WriteLine(item);
+                }
+            }
 
             #endregion
-
         }
     }
 }
