@@ -70,6 +70,9 @@ namespace Kontrollstrukturen
             //Fallauswahl
             // 1, 2, 3 oder 456789
             int variable = 3;
+
+            variable = Convert.ToInt32(Console.ReadLine());
+
             switch (variable)
             {
                 case 1:
@@ -94,13 +97,14 @@ namespace Kontrollstrukturen
                     Console.WriteLine("Zahl ist größer als 9 oder kleiner als 1");
                     break;
             }
+
             #endregion
 
             #region Schleifen Kapitel 10
 
             /*
               Kopfgesteuerte Schleife
-            
+
               ...
               Anweisungen
 
@@ -117,14 +121,14 @@ namespace Kontrollstrukturen
                                              |
               Anweisungen                <---+
               ...
-              
+
              */
 
             //Schleifensteuerung
             while (Bedingung) //true -> Schleifenrumpf oder false -> Abbruch
             { //Anweisungsblock
-                //Schleifenrumpf
-                //Anweisung/en
+              //Schleifenrumpf
+              //Anweisung/en
             }
 
 
@@ -132,7 +136,7 @@ namespace Kontrollstrukturen
             /*
                 ...
                 Anweisungen
-             
+
              +-> +------------------------+
              |   |                        |
              |   |                        |
@@ -152,7 +156,7 @@ namespace Kontrollstrukturen
 
             do
             {//Schleifenrumpf
-                //Anweisungen
+             //Anweisungen
             }
             while (Bedingung);
 
@@ -163,8 +167,8 @@ namespace Kontrollstrukturen
             int zähler;
             int endwert = 10;
             int schrittweite = 1;
-            int abbruch = (new Random((int)DateTime.Now.Ticks)).Next(1,11); //Zufallszahl generieren
-            
+            int abbruch = (new Random((int)DateTime.Now.Ticks)).Next(1, 11); //Zufallszahl generieren
+
             // zähle von startwert bis endwert mit schrittweite
             // for(     startwert/zähler;   bedingung(endwert)   ;   erhöhen des zählers    )
             for (zähler = startwert; zähler <= endwert; zähler = zähler + schrittweite)
@@ -175,22 +179,22 @@ namespace Kontrollstrukturen
                     continue; //springt direkt zur Bedingungsprüfung bzw. Zähleränderung
                 }
                 Console.WriteLine("Zählerwert: " + zähler);
-                
+
                 if (zähler == abbruch) break; //beendet die Schleife sofort!
             }
 
 
 
             // Sammlungen iterieren
-            // foreach-Schleife
+            // foreach-Schleife Kapitel 11.1
             int[] zahlen = { 1, 2, 3, 4, 5, 6, 7, 8 };
-            for(int index = 0; index < zahlen.Length; index++)
+            for (int index = 0; index < zahlen.Length; index++)
             {
                 int item = zahlen[index];
                 Console.WriteLine(item);
             }
 
-            foreach(int item in zahlen)
+            foreach (int item in zahlen)
             {
                 Console.WriteLine(item);
             }

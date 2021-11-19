@@ -37,23 +37,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netzwerk", "Netzwerk\Netzwe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tannenbaum", "Tannenbaum\Tannenbaum.csproj", "{A15CA51F-B5BC-4CA9-8C1E-B00627D5015C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{4D4F1265-6A8A-4F92-8CDE-1F97366F6306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{4D4F1265-6A8A-4F92-8CDE-1F97366F6306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{F588242B-CD9E-433D-B923-82677A40D6C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autovermietung", "Autovermietung\Autovermietung.csproj", "{F588242B-CD9E-433D-B923-82677A40D6C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayNr162_164", "ArrayNr162\ArrayNr162_164.csproj", "{1CD3AE57-C097-4BB6-94BC-D3F59786C6E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayNr162_164", "ArrayNr162\ArrayNr162_164.csproj", "{1CD3AE57-C097-4BB6-94BC-D3F59786C6E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zufallszahlen_Aufgabe167", "Zufallszahlen_Aufgabe167\Zufallszahlen_Aufgabe167.csproj", "{7C312DA1-3887-494D-92BD-63112D122DAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zufallszahlen_Aufgabe167", "Zufallszahlen_Aufgabe167\Zufallszahlen_Aufgabe167.csproj", "{7C312DA1-3887-494D-92BD-63112D122DAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaedtePopulation", "StaedtePopulation\StaedtePopulation.csproj", "{609B94AD-68F8-4E30-9C5D-796E123EF519}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaedtePopulation", "StaedtePopulation\StaedtePopulation.csproj", "{609B94AD-68F8-4E30-9C5D-796E123EF519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadratzahlenImArray", "QuadratzahlenImArray\QuadratzahlenImArray.csproj", "{891CDFF9-1349-4AA5-899B-9492D5341933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadratzahlenImArray", "QuadratzahlenImArray\QuadratzahlenImArray.csproj", "{891CDFF9-1349-4AA5-899B-9492D5341933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleife3", "Schleife3\Schleife3.csproj", "{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schleife3", "Schleife3\Schleife3.csproj", "{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{7647DEB5-DA36-4539-A032-9CBDC48A1071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{7647DEB5-DA36-4539-A032-9CBDC48A1071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wochentage", "Wochentage\Wochentage.csproj", "{77B80DCA-3061-4261-970D-8CA32DAC0D35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wochentage", "Wochentage\Wochentage.csproj", "{77B80DCA-3061-4261-970D-8CA32DAC0D35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raumtemperatur2DArray", "Raumtemperatur2DArray\Raumtemperatur2DArray.csproj", "{02E18889-274C-4AE4-B837-C8FD5C662000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{77B80DCA-3061-4261-970D-8CA32DAC0D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B80DCA-3061-4261-970D-8CA32DAC0D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B80DCA-3061-4261-970D-8CA32DAC0D35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E18889-274C-4AE4-B837-C8FD5C662000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E18889-274C-4AE4-B837-C8FD5C662000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E18889-274C-4AE4-B837-C8FD5C662000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E18889-274C-4AE4-B837-C8FD5C662000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{83CD6D4C-6FFF-4EBE-A561-CCBBF76A7374} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 		{7647DEB5-DA36-4539-A032-9CBDC48A1071} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 		{77B80DCA-3061-4261-970D-8CA32DAC0D35} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{02E18889-274C-4AE4-B837-C8FD5C662000} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}
