@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Beispiele", "Beispiele", "{12493A9C-DC62-4568-8075-27AE77087A0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themen", "Themen", "{06C5959A-CEB3-4724-B8CA-D5BA634F8218}"
+	ProjectSection(SolutionItems) = preProject
+		Programierparadigmen.md = Programierparadigmen.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontrollstrukturen", "Kontrollstrukturen\Kontrollstrukturen.csproj", "{780DC723-277D-4428-BC0E-C22D181301DA}"
 EndProject
@@ -55,7 +58,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wochentage", "Wochentage\Wochentage.csproj", "{77B80DCA-3061-4261-970D-8CA32DAC0D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raumtemperatur2DArray", "Raumtemperatur2DArray\Raumtemperatur2DArray.csproj", "{02E18889-274C-4AE4-B837-C8FD5C662000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raumtemperatur2DArray", "Raumtemperatur2DArray\Raumtemperatur2DArray.csproj", "{02E18889-274C-4AE4-B837-C8FD5C662000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
