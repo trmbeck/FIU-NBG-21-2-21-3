@@ -6,37 +6,42 @@ namespace BMI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bitte Koerpergroeße in CM angeben");
+            Console.WriteLine("Bitte Koerpergroeße in cm angeben");
             string eingabe = Console.ReadLine();
             double groesse = Convert.ToDouble(eingabe);
 
             groesse = groesse / 100;
 
-            Console.WriteLine("Bitte Gewicht in KG angeben");
+            Console.WriteLine("Bitte Gewicht in kg angeben");
             eingabe = Console.ReadLine();
             double gewicht = Convert.ToDouble(eingabe);
 
-            double bmi = gewicht / (groesse * groesse);
+            double bmi = BerechneBMI(gewicht,groesse);
 
-            if (bmi < 18.5)
+            string auswwertung = AuswertungBMI(bmi);
+            Console.WriteLine(auswwertung);
+
+            double BerechneBMI(double GewichtInKg, double GroesseInMeter)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Untergewicht");
+                double BMI = GewichtInKg / (GroesseInMeter * GroesseInMeter);
+                return BMI;
             }
-            else if (bmi > 24.9)
+
+            string AuswertungBMI(double BMI)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Uebergewicht");
+                if (BMI < 18.5)
+                {
+                    return "Untergewicht";
+                }else 
+                if (BMI > 24.9) 
+                {
+                    return "Übergewicht";
+                }
+                else
+                {
+                    return "Normalgewicht";
+                }
             }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Normalgewicht");
-            }
-            Console.ForegroundColor = ConsoleColor.White;
 
         }
     }
