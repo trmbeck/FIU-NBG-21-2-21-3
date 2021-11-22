@@ -60,6 +60,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wochentage", "Wochentage\Wo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raumtemperatur2DArray", "Raumtemperatur2DArray\Raumtemperatur2DArray.csproj", "{02E18889-274C-4AE4-B837-C8FD5C662000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinosaal", "Kinosaal\Kinosaal.csproj", "{C3A06D16-4517-4495-AA36-2B9EEF1E4576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +164,10 @@ Global
 		{02E18889-274C-4AE4-B837-C8FD5C662000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E18889-274C-4AE4-B837-C8FD5C662000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E18889-274C-4AE4-B837-C8FD5C662000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A06D16-4517-4495-AA36-2B9EEF1E4576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A06D16-4517-4495-AA36-2B9EEF1E4576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A06D16-4517-4495-AA36-2B9EEF1E4576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A06D16-4517-4495-AA36-2B9EEF1E4576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -191,6 +197,7 @@ Global
 		{7647DEB5-DA36-4539-A032-9CBDC48A1071} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 		{77B80DCA-3061-4261-970D-8CA32DAC0D35} = {12493A9C-DC62-4568-8075-27AE77087A0A}
 		{02E18889-274C-4AE4-B837-C8FD5C662000} = {12493A9C-DC62-4568-8075-27AE77087A0A}
+		{C3A06D16-4517-4495-AA36-2B9EEF1E4576} = {EC1F4500-1DC1-40EA-B5F3-28F84525B1AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C71F694E-0AC7-4DD1-9E52-633EB6C419AE}

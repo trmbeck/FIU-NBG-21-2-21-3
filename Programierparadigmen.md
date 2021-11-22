@@ -6,15 +6,15 @@ Anweisungen werden abgearbeitet. Ansatz: "Wie soll etwas berechnet werden?"
 z. B. Assembler(Maschinencode), Basic
 
 + Strukturierte Programmierung
-	- Einsatz von Krontrollstrukturen
+	- Einsatz von Krontrollstrukturen (´if ... else ...´, ´do ... while´, ... )
 	- Verzicht von absoluten Sprunganweisungen (GOTO)
 + Prozedurale Programmierung
 	- Aufteilung in kleinere Aufgaben (Unterprogramme)
 	- Prozedur (Aktion) / Funktion (Ergebnis) / Methode in OOP
-	- Pascal, C
+	- Sprachen: Pascal, C
 + Modulare Programmierung
 	- Aufteilung des Codes in mehrere Dateien zu logischen Einheiten (Modulen)
-	- Modula-2
+	- Sprache: Modula-2
 
 ## Deklarative Programmierparadigmen
 
